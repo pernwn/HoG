@@ -1,1 +1,2 @@
 # HoG
+Online Magazine project
