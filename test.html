@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -9,45 +10,69 @@
   <link href="test.css" rel="stylesheet">
 
 </head>
-<body>
-   
-<div class="container">
-  <h2>Multi-Level Dropdowns</h2>
-  <p>In this example, we have created a .dropdown-submenu class for multi-level dropdowns (see style section above).</p>
-  <p>Note that we have added jQuery to open the multi-level dropdown on click (see script section below).</p>                                        
-  <div class="dropdown">
-    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Tutorials
-    <span class="caret"></span></button>
-    <ul class="dropdown-menu">
-      <li><a tabindex="-1" href="#">HTML</a></li>
-      <li><a tabindex="-1" href="#">CSS</a></li>
-      <li class="dropdown-submenu">
-        <a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
-          <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
-          <li class="dropdown-submenu">
-            <a class="test" href="#">Another dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">3rd level dropdown</a></li>
-              <li><a href="#">3rd level dropdown</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-</div>
 
-<script>
-    $(document).ready(function(){
-      $('.dropdown-submenu a.test').on("click", function(e){
-        $(this).next('ul').toggle();
-        e.stopPropagation();
-        e.preventDefault();
-      });
-    });
-    </script>
+<body>
+
+  <div class="container">
+    <input type="radio" name="slider" id="item-1" checked>
+    <input type="radio" name="slider" id="item-2">
+    <input type="radio" name="slider" id="item-3">
+
+    <div class="cards">
+
+      <label class="card" for="item-1" id="song-1">
+        <img src="images/horizon/egne/hzd1.JPG" class="imgslide" alt="horizon zero dawn">
+      </label>
+
+      <label class="card" for="item-2" id="song-2">
+        <img src="images/ac/scene.JPG" class="imgslide" alt="animal crossing">
+      </label>
+
+      <label class="card" for="item-3" id="song-3">
+        <img src="images/botw/greatp.png" class="imgslide" alt="zelda: breath of the wild">
+      </label>
+
+    </div>
+    
+    <div class="player">
+      <div class="upper-part">
+        <div class="play-icon">
+          <svg width="20" height="20" fill="#2992dc" stroke="#2992dc" stroke-linecap="round" stroke-linejoin="round"
+            stroke-width="2" class="feather feather-play" viewBox="0 0 24 24">
+            <defs />
+            <path d="M5 3l14 9-14 9V3z" />
+          </svg>
+        </div>
+        <div class="info-area" id="test">
+          <label class="song-info" id="song-info-1">
+            <div class="title">Bunker</div>
+            <div class="sub-line">
+              <div class="subtitle">Balthazar</div>
+              <div class="time">4.05</div>
+            </div>
+          </label>
+          <label class="song-info" id="song-info-2">
+            <div class="title">Words Remain</div>
+            <div class="sub-line">
+              <div class="subtitle">Moderator</div>
+              <div class="time">4.05</div>
+            </div>
+          </label>
+          <label class="song-info" id="song-info-3">
+            <div class="title">Falling Out</div>
+            <div class="sub-line">
+              <div class="subtitle">Otzeki</div>
+              <div class="time">4.05</div>
+            </div>
+          </label>
+        </div>
+      </div>
+      <div class="progress-bar">
+        <span class="progress"></span>
+      </div>
+    </div>
+  </div>
 
 </body>
+
 </html>

@@ -4,60 +4,60 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color:#fafafa;
+body {
+    background-color: #fafafa;
 }
 
 /*HEADER STYLES*/
 
-header{
-    display:flex;
+header {
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
     justify-content: center;
     /*background-color:#673ab7;*/
-    background-image:linear-gradient(to right,#673ab7,#400b9d);
+    background-image: linear-gradient(to right, #673ab7, #400b9d);
 
-    font-family:"Poppins";
-    font-weight:300;
+    font-family: "Poppins";
+    font-weight: 300;
 
-    padding:5px;
+    padding: 5px;
 
 
 }
 
-#logo{
-    float:left;
-    width:25%;
-    padding:2%;
-    margin-left:20%;
+#logo {
+    float: left;
+    width: 25%;
+    padding: 2%;
+    margin-left: 20%;
 }
 
-#brugerikon{
-    margin-right:5%;
+#brugerikon {
+    margin-right: 5%;
 }
 
-#search{
-    width:3%;
+#search {
+    width: 3%;
 }
 
 
 /*DROPDOWN BUTTONS*/
 nav {
-    width:100%;
+    width: 100%;
     height: 80px;
-    
 
-    display:flex;
+
+    display: flex;
     justify-content: space-between;
     justify-content: center;
     align-items: center;
-    
-    margin-right:5%;
+
+    margin-right: 5%;
 }
 
 nav a {
-    float: left; 
+    float: left;
     font-size: 16px;
     color: white;
     text-align: center;
@@ -65,144 +65,223 @@ nav a {
     text-decoration: none;
 }
 
-.dropdown{
-    float:left;
-    position:relative;
+.dropdown {
+    float: left;
+    position: relative;
 }
 
-.dropdown .dropbtn{
+.dropdown .dropbtn {
     font-size: 16px;
-    border:none;
-    outline:none;
-    color:white;
+    border: none;
+    outline: none;
+    color: white;
     padding: 10px 12px;
-    background-color:inherit;
-    font-family:inherit;
-    margin:0;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
 }
 
-#bruger{
-    right:0;
+#bruger {
+    right: 0;
 }
 
-.dropbtn #bruger{
-    float:right;
+.dropbtn #bruger {
+    float: right;
 }
 
-nav .dropdown:hover .dropbtn{
-    background-color:#9c27b0;
+nav .dropdown:hover .dropbtn {
+    background-color: #9c27b0;
     border-radius: 50px;
 }
 
-.dropdown-one{
-    cursor:pointer;
-    display:none;
-    position:absolute;
+.dropdown-one {
+    cursor: pointer;
+    display: none;
+    position: absolute;
     background-clip: padding-box;
-    min-width:160px;
-    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     background-color: #fafafa;
 }
 
-.dropdown-two{
-    cursor:pointer;
-    display:none;
-    position:absolute;
-    left:160px;
-    top:0px;
+.dropdown-two {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    left: 160px;
+    top: 0px;
     background-color: padding-box;
-    min-width:160px;
-    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     background-color: #fafafa;
 
-    font-size:14px;
+    font-size: 14px;
 }
 
-.dropdown:hover .dropdown-one, #link1:hover >.dropdown-two{
-    display:block;
+.dropdown:hover .dropdown-one,
+#link1:hover>.dropdown-two {
+    display: block;
 }
 
-.dropdown-one .dItem{
-    color:black;
-    padding:12px 16px;
-    display:block;
-    text-align:left;
+.dropdown-one .dItem {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
 }
 
-.dropdown-one .dItem:hover, .dropdown-two a:hover{
-    background-color:#9b27b081;
+.dropdown-one .dItem:hover,
+.dropdown-two a:hover {
+    background-color: #9b27b081;
 }
 
-/*MAIN STYLES*/
-main{
-    height:500px;
-}
+
 
 /*FOOTER STYLES*/
-footer{
-    width:100%;
-    height:220px;
-    background-image:linear-gradient(to right,#400b9d,#673ab7);
+footer {
+    width: 100%;
+    height: 220px;
+    background-image: linear-gradient(to right, #400b9d, #673ab7);
 
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
 
-    padding:5%;
+    padding: 5%;
 
     font-family: "Poppins";
     color: #e0e0e0;
-    
+
 }
 
-footer h1{
-    font-size:20px;
+form {
+    padding-top: 5%;
+}
+
+footer h1 {
+    font-size: 20px;
     font-weight: 400;
     color: #fafafa
 }
 
-#email{
-    display:flex;
+#email {
+    display: flex;
     justify-content: center;
     justify-content: space-evenly;
     flex-direction: column;
-    padding:1%;
+    padding: 1%;
 }
 
-#email h1{
-    font-size:35px;
-    font-weight:600;
-    color:#9c27b0;
+#email h1 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #9c27b0;
 }
 
-footer a{
-    text-decoration:none;
+footer a {
+    text-decoration: none;
     color: #e0e0e0;
 
     font-size: 15px;
-    font-weight:200;
+    font-weight: 200;
 }
 
-footer a:hover{
-    color:#9c27b0;
+footer a:hover {
+    color: #9c27b0;
 }
 
-#container{
-    display:flex;
+#container {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-right: 15%;
+    margin-right: 12%;
 
-    
 
 }
 
-.box{
-    display:flex;
+.box {
+    display: flex;
     flex-direction: column;
 
-    margin-right:20%;
-    margin-bottom:10%;
+    margin-right: 20%;
+    margin-bottom: 10%;
 
+}
+
+/*MAIN STYLES*/
+main {
+    height: 1000px;
+    top: 300px;
+}
+
+/*SLIDER STYLES MAIN*/
+
+input[type=radio] {
+    display: none;
+}
+
+.slider .card {
+   position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform .4s ease;
+    cursor: pointer;
+}
+
+.slider .container {
+    width: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider .cards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.imgslide {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#item-1:checked~.cards #song-3,
+#item-2:checked~.cards #song-1,
+#item-3:checked~.cards #song-2 {
+    transform: translatex(-40%) scale(.8);
+    opacity: .4;
+    z-index: 0;
+}
+
+#item-1:checked~.cards #song-2,
+#item-2:checked~.cards #song-3,
+#item-3:checked~.cards #song-1 {
+    transform: translatex(40%) scale(.8);
+    opacity: .4;
+    z-index: 0;
+}
+
+#item-1:checked~.cards #song-1,
+#item-2:checked~.cards #song-2,
+#item-3:checked~.cards #song-3 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+
+    /*img }
+      box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+    }*/
 }
