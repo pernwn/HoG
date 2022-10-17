@@ -24,11 +24,97 @@
 
 }
 
+/*SECOND HEADINGBOX*/
+.headingbox1{
+    border-bottom:2px solid #00004d;
+    width:100%;
+    padding-left:5%;
+    margin-bottom:60px; /*pga. position relative tricket skal der lidt mere plads til*/
+}
+
+.headingbox1 h1{
+    position:relative;
+    top:40px;
+    background-color:#fafafa;
+
+    width:300px;
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:300;
+    font-family:"Poppins";
+    font-size:40pt;
+    letter-spacing:-1px;
+    color:#00004d;
+}
+
 /*KORT STYLES*/
+
+
 .kort{
+    width:100%;
+
     display:flex;
     align-items: center;
+    justify-content: center;
     justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction:row;
     flex-wrap:wrap;
+ 
 }
+
+.kort img{
+    width:100%;
+}
+
+.nyheder{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    justify-content: space-around;
+
+    padding:1px;
+
+
+}
+
+.text{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    flex-wrap:wrap;
+
+    color:#00004d;
+
+
+}
+
+.nyheder .text h2{
+    font-family:"Poppins";
+    font-size:10pt;
+}
+
+.text p{
+    font-family: "Rubik";
+    font-weight:400;
+    font-size:7pt;
+    color:#e0e0e0;
+    text-transform: uppercase;
+}
+
+.text a{
+    text-decoration: none;
+    color:#00004d;
+
+    font-family:"Rubik";
+    font-size:20pt;
+
+}
+
+.nyheder a:hover{
+    color:#9c27b0;
+}
+
+
+
