@@ -1,6 +1,6 @@
 /*HEADINGBOX STYLES*/
 .headingbox{
-    border-bottom:2px solid #00004d;
+    border-bottom:3px solid #00004d;
     width:100%;
     padding-left:33%;
     margin-bottom:60px; /*pga. position relative tricket skal der lidt mere plads til*/
@@ -51,15 +51,22 @@
 
 
 .kort{
-    width:100%;
+    width:90%;
+    height:100%;
+    
 
-    display:flex;
+    gap:2rem;
+    display:grid;
+    grid-auto-flow: column;
+   
+
     align-items: center;
     justify-content: center;
     justify-content: space-evenly;
     flex-direction:row;
     flex-wrap:wrap;
- 
+
+
 }
 
 .kort img{
@@ -74,6 +81,7 @@
     justify-content: space-around;
 
     padding:1px;
+
 
 
 }
@@ -93,13 +101,16 @@
 .nyheder .text h2{
     font-family:"Poppins";
     font-size:10pt;
+    color:#9c27b0;
+
+    text-transform: uppercase;
 }
 
 .text p{
     font-family: "Rubik";
     font-weight:400;
     font-size:7pt;
-    color:#400b9d;
+    color:#757575;
     text-transform: uppercase;
 }
 
@@ -115,6 +126,8 @@
 .nyheder a:hover{
     color:#9c27b0;
 }
+
+
 
 
 
