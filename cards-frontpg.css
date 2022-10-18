@@ -1,133 +1,143 @@
 /*HEADINGBOX STYLES*/
-.headingbox{
-    border-bottom:3px solid #00004d;
-    width:100%;
-    padding-left:33%;
-    margin-bottom:60px; /*pga. position relative tricket skal der lidt mere plads til*/
+.headingbox {
+    border-bottom: 3px solid #00004d;
+    width: 100%;
+    padding-left: 33%;
+    margin-bottom: 90px;
+    /*pga. position relative tricket skal der lidt mere plads til*/
 
 }
 
-.headingbox h1{
-    position:relative;
-    top:45px;
-    background-color:#fafafa;
+.headingbox h1 {
+    position: relative;
+    top: 45px;
+    background-color: #fafafa;
 
-    width:500px;
-    text-align:center;
-    text-transform:uppercase;
-    
-    font-weight:500;
-    font-family:"Poppins";
-    font-size:40pt;
-    letter-spacing:-1px;
-    color:#00004d;
+    width: 500px;
+    text-align: center;
+    text-transform: uppercase;
+
+    font-weight: 500;
+    font-family: "Poppins";
+    font-size: 40pt;
+    letter-spacing: -1px;
+    color: #00004d;
 
 }
 
 /*SECOND HEADINGBOX*/
-.headingbox1{
-    border-bottom:2px solid #00004d;
-    width:100%;
-    padding-left:5%;
-    margin-bottom:60px; /*pga. position relative tricket skal der lidt mere plads til*/
+.headingbox1 {
+    border-bottom: 2px solid #00004d;
+    width: 100%;
+    padding-left: 5%;
+    margin-bottom: 80px;
+    /*pga. position relative tricket skal der lidt mere plads til*/
+
+
 }
 
-.headingbox1 h1{
-    position:relative;
-    top:40px;
-    background-color:#fafafa;
+.headingbox1 h1 {
+    position: relative;
+    top: 40px;
+    background-color: #fafafa;
 
-    width:300px;
-    text-align:center;
-    text-transform:uppercase;
-    font-weight:300;
-    font-family:"Poppins";
-    font-size:40pt;
-    letter-spacing:-1px;
-    color:#00004d;
+    width: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: "Poppins";
+    font-size: 40pt;
+    letter-spacing: -1px;
+    color: #00004d;
 }
 
 /*KORT STYLES*/
 
+.placeholder {
+    background-color: #9c27b0;
+    width: 100%;
+    height: 100%;
+}
 
-.kort{
-    width:90%;
+
+
+.kort {
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+
+
+
+.kort img {
+    width: 100%;
+}
+
+.nyheder {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 2%;
+
+    width: 33%;
+
+}
+
+
+.text {
     height:100%;
-    
+    width: 100%;
 
-    gap:2rem;
-    display:grid;
-    grid-auto-flow: column;
-   
-
+    display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-evenly;
-    flex-direction:row;
-    flex-wrap:wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    color: #00004d;
+    background-color: #e0e0e04b;
+
+    padding: 1%;
+
+    /*Leg lidt med det – skubber div element op over et billede*/
+    position:relative;
+    bottom:100px;
 
 
 }
 
-.kort img{
-    width:100%;
-}
-
-.nyheder{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction:column;
-    justify-content: space-around;
-
-    padding:1px;
-
-
-
-}
-
-.text{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction:column;
-    flex-wrap:wrap;
-
-    color:#00004d;
-
-
-}
-
-.nyheder .text h2{
-    font-family:"Poppins";
-    font-size:10pt;
-    color:#9c27b0;
+.text h2 {
+    font-family: "Poppins";
+    font-size: 10pt;
+    color: #9c27b0;
 
     text-transform: uppercase;
 }
 
-.text p{
+.text p {
     font-family: "Rubik";
-    font-weight:400;
-    font-size:7pt;
-    color:#757575;
+    font-weight: 400;
+    font-size: 7pt;
+    color: #757575;
     text-transform: uppercase;
 }
 
-.text a{
+.text a {
     text-decoration: none;
-    color:#00004d;
+    color: #00004d;
 
-    font-family:"Rubik";
-    font-size:20pt;
+    font-family: "Rubik";
+    font-size: 20pt;
 
 }
 
-.nyheder a:hover{
-    color:#9c27b0;
+.nyheder a:hover {
+    color: #9c27b0;
 }
-
-
-
-
-

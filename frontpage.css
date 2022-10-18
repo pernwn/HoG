@@ -8,7 +8,7 @@
 body {
     background-color: #fafafa;
     width: 100%;
-    height: 100%;
+
 
 }
 
@@ -266,6 +266,29 @@ input[type=radio] {
     display: none;
 }
 
+.card div{
+    /*Leg lidt med det – skubber div element op over et billede*/
+    background-color: #410b9dd3;
+    height:100px;
+    width:90%;
+
+    border-radius: 10px;
+
+    position:relative;
+    bottom:130px;
+
+    margin-left: 30px;
+}
+
+.card div a{
+    /*Leg lidt med teksten så det ser pænere ud*/
+    font-family:"Poppins";
+    color:#fafafa;
+    font-size:20pt;
+
+
+}
+
 .card {
     position: absolute;
    
@@ -308,6 +331,7 @@ input[type=radio] {
     transform: translatex(-40%) scale(.8);
     opacity: .4;
     z-index: 0;
+
 }
 
 #item-1:checked~.cards #pic-2,
@@ -316,6 +340,8 @@ input[type=radio] {
     transform: translatex(40%) scale(.8);
     opacity: .4;
     z-index: 0;
+  
+
 }
 
 #item-1:checked~.cards #pic-1,
