@@ -54,12 +54,12 @@ article>.header {
 }
 
 .indhold-overskrift {
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     padding-bottom: 1%;
 }
 
 .indhold-tekst {
-    font-family: "Rubik";
+    font-family: "Rubik",sans-serif;
     line-height: 23px;
 }
 
@@ -83,7 +83,7 @@ article>.header {
 }
 
 article .header p {
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-size: 10pt;
     text-transform: uppercase;
     font-weight: 400;
@@ -93,12 +93,33 @@ article .header p {
     color: #757575;
 }
 
+/*styles til 'del på'*/
+.indhold #del{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top:40px;
+
+}
+
+.indhold #del p{
+    font-family:"Rubik", sans-serif;
+    font-size: 15pt;
+    margin-right:10px;
+
+    color:#00004d;
+}
+
+.indhold #del img{
+    width:30px;
+    margin-left:10px;
+}
 
 article .header h2 {
     font-size: 10pt;
     padding: 2%;
 
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     color: #9c27b0;
 
@@ -106,7 +127,7 @@ article .header h2 {
 }
 
 article .header h3 {
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-size: 30pt;
 
 }
@@ -125,7 +146,7 @@ ul {
 }
 
 ul a {
-    font-family: "Rubik";
+    font-family: "Rubik",sans-serif;
 
     text-decoration: none;
     color: #9c27b0;
@@ -136,7 +157,7 @@ ul a:hover {
 }
 
 ol {
-    font-family: "Rubik";
+    font-family: "Rubik",sans-serif;
     line-height: 30px;
     font-size: 13pt;
 }
@@ -161,7 +182,7 @@ ol {
 }
 
 .pile a {
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
