@@ -13,7 +13,7 @@ article .botw {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
 }
 
 article {
@@ -63,8 +63,13 @@ article>.header {
     line-height: 23px;
 }
 
-.indhold-tekst img {
-    width: 30%;
+.indhold-tekst img{
+    width:30%;
+    margin-top:10px;
+}
+
+.indhold img{
+    border-radius: 10px;
 }
 
 
