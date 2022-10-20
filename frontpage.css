@@ -81,6 +81,12 @@ nav {
 .dropdown {
     float: left;
     position: relative;
+
+    margin-right:1%;
+}
+
+.dropdown a{
+    text-decoration: none;
 }
 
 .dropdown .dropbtn {
@@ -113,10 +119,6 @@ nav .dropdown:hover .dropbtn {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     background-color: #fafafa;
 
-}
-
-.dropdown-one a{
-    text-decoration: none;
 }
 
 .dropdown-two {
