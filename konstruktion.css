@@ -1,6 +1,7 @@
 main{
-    height:600px;
+    height:auto;
     text-align: center;
+    margin:10%;
 }
 
 h1{
