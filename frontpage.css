@@ -125,7 +125,6 @@ nav .dropdown:hover .dropbtn {
     position: absolute;
     left: 160px;
     top: 0px;
-    background-color: padding-box;
     min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     background-color: #fafafa;
@@ -133,7 +132,7 @@ nav .dropdown:hover .dropbtn {
 }
 
 .dropdown:hover .dropdown-one,
-#link1:hover>.dropdown-two {
+.dItem:hover>.dropdown-two {
     display: block;
 }
 
@@ -178,7 +177,7 @@ form {
     color:#400b9d;
 }
 
-footer h1 {
+footer h2 {
     font-size: 20px;
     font-weight: 400;
     color: #fafafa
@@ -275,7 +274,7 @@ input[type=radio] {
     display: none;
 }
 
-.card section{
+.card .link{
     /*Leg lidt med det – skubber div element op over et billede*/
     background-color: #410b9d;
     height:100px;
@@ -294,7 +293,7 @@ input[type=radio] {
 
 }
 
-.card section a{
+.link a{
     font-family:"Poppins";
     color:#fafafa;
     font-size:18pt;
@@ -302,13 +301,13 @@ input[type=radio] {
     text-decoration: none;
 }
 
-.card div p{
+.type p{
     text-transform: uppercase;
     color: #b942ce;
 
 }
 
-.card div{
+.card .type{
     width:20%;
     height:100%;
 
@@ -326,7 +325,7 @@ input[type=radio] {
     padding:1%;
 }
 
-.card section a:hover{
+.card a:hover{
     text-decoration: none;
     color:#b942ce;
 }
@@ -334,7 +333,7 @@ input[type=radio] {
 
 .card {
     position: absolute;
-   
+    width:100%;
     left: 0;
     right: 0;
     margin: auto;

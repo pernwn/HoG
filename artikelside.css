@@ -89,7 +89,7 @@ article .header p {
 }
 
 
-article .header h1 {
+article .header h2 {
     font-size: 10pt;
     padding: 2%;
 
@@ -100,7 +100,7 @@ article .header h1 {
     text-transform: uppercase;
 }
 
-article .header h2 {
+article .header h3 {
     font-family: "Poppins";
     font-size: 30pt;
 
