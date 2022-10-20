@@ -69,14 +69,14 @@ nav {
     /*Gør så den altid er øverst*/
 }
 
-nav a {
+/*nav a {
     float: left;
     font-size: 16px;
-    color: white;
+    color: #fafafa;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+}*/
 
 .dropdown {
     float: left;
@@ -87,19 +87,16 @@ nav a {
     font-size: 16px;
     border: none;
     outline: none;
-    color: white;
+    color: #fafafa;
     padding: 10px 12px;
-    background-color: inherit;
-    font-family: inherit;
+    background-color: transparent;
+    font-family: "Poppins";
     margin: 0;
 }
 
 #bruger {
-    right: 0;
-}
-
-.dropbtn #bruger {
-    float: right;
+    float:right;
+    right:0;
 }
 
 nav .dropdown:hover .dropbtn {
@@ -115,6 +112,11 @@ nav .dropdown:hover .dropbtn {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     background-color: #fafafa;
+
+}
+
+.dropdown-one a{
+    text-decoration: none;
 }
 
 .dropdown-two {
@@ -124,11 +126,10 @@ nav .dropdown:hover .dropbtn {
     left: 160px;
     top: 0px;
     background-color: padding-box;
-    min-width: 160px;
+    min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     background-color: #fafafa;
 
-    font-size: 14px;
 }
 
 .dropdown:hover .dropdown-one,
@@ -137,10 +138,12 @@ nav .dropdown:hover .dropbtn {
 }
 
 .dropdown-one .dItem {
-    color: black;
+    color:#00004d;
     padding: 12px 16px;
     display: block;
     text-align: left;
+
+    font-size: 16px;
 }
 
 .dropdown-one .dItem:hover,
