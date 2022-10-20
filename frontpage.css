@@ -127,7 +127,7 @@ nav .dropdown:hover .dropbtn {
     position: absolute;
     left: 160px;
     top: 0px;
-    min-width: 190px;
+    min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     background-color: #fafafa;
 
