@@ -145,6 +145,8 @@ nav .dropdown:hover .dropbtn {
 
 .dropdown-one .dItem:hover,
 .dropdown-two a:hover {
+    text-decoration: none;
+    width:100%;
     background-color: #9b27b081;
 }
 
@@ -235,21 +237,25 @@ footer a:hover {
 }
 
 /*ikoner i footer*/
-#content.ikoner{
+.ikoner{
     display:flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: row;
 
-    margin-left:10%;
+    margin-left:100%;
+    margin-top:10%;
 
+}
 
+.ikoner img{
+    margin-right:5%;
 }
 
 /*MAIN STYLES*/
 main {
-    height:2000px;
+    height:2100px;
 
     display: flex;
     align-items: center;
@@ -266,28 +272,62 @@ input[type=radio] {
     display: none;
 }
 
-.card div{
+.card section{
     /*Leg lidt med det – skubber div element op over et billede*/
-    background-color: #410b9dd3;
+    background-color: #410b9d;
     height:100px;
-    width:90%;
+    width:60%;
+    margin-left: 35px;
 
     border-radius: 10px;
 
     position:relative;
-    bottom:130px;
+    bottom:170px;
 
-    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:1%;
+
 }
 
-.card div a{
-    /*Leg lidt med teksten så det ser pænere ud*/
+.card section a{
     font-family:"Poppins";
     color:#fafafa;
-    font-size:20pt;
+    font-size:18pt;
 
+    text-decoration: none;
+}
+
+.card div p{
+    text-transform: uppercase;
+    color: #b942ce;
 
 }
+
+.card div{
+    width:20%;
+    height:100%;
+
+    text-align: center;
+
+    background-color: #410b9d;
+    margin-left: 35px;
+
+    border-radius: 10px;
+
+    position:relative;
+    bottom:155px;
+
+   
+    padding:1%;
+}
+
+.card section a:hover{
+    text-decoration: none;
+    color:#b942ce;
+}
+
 
 .card {
     position: absolute;

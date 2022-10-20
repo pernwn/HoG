@@ -1,0 +1,17 @@
+main{
+    height:600px;
+    text-align: center;
+}
+
+h1{
+    font-family: "Poppins";
+    font-size:40pt;
+    color:#00004d;
+}
+
+main p{
+    font-family: "Rubik";
+    color:#00004d;
+    font-size:20pt;
+
+}

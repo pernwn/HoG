@@ -119,6 +119,20 @@ nav .dropdown:hover .dropbtn {
   font-size: 14px;
 }
 
+.dropdown-three {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  left: 160px;
+  top: 0px;
+  background-color: padding-box;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: #fafafa;
+
+  font-size: 14px;
+}
+
 .dropdown:hover .dropdown-one,
 #link1:hover>.dropdown-two {
   display: block;

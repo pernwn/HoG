@@ -3,7 +3,7 @@
     border-bottom: 3px solid #00004d;
     width: 100%;
     padding-left: 33%;
-    margin-bottom: 90px;
+    margin-bottom: 100px;
     /*pga. position relative tricket skal der lidt mere plads til*/
 
 }
@@ -91,29 +91,23 @@
 }
 
 
-.text {
+.text, .text1 {
     height:100%;
     width: 100%;
 
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
 
     color: #00004d;
     background-color: #e0e0e04b;
 
-    padding: 1%;
-
-    /*Leg lidt med det – skubber div element op over et billede*/
-    position:relative;
-    bottom:100px;
-
+    padding: 2%;
 
 }
 
-.text h2 {
+
+.text h2, .text1 h2 {
     font-family: "Poppins";
     font-size: 10pt;
     color: #9c27b0;
@@ -136,6 +130,14 @@
     font-family: "Rubik";
     font-size: 20pt;
 
+}
+
+.text1 a{
+    text-decoration: none;
+    color: #00004d;
+
+    font-family: "Rubik";
+    font-size: 15pt;
 }
 
 .nyheder a:hover {

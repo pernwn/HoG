@@ -5,6 +5,23 @@
 
 }
 
+.placeholder {
+    background-color: #9c27b0;
+    height: 300px;
+    width: 100%;
+}
+
+article img {
+    width: 100%;
+}
+
+article .botw {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 article {
     width: 100%;
     margin-left: auto;
@@ -15,7 +32,7 @@ article>.header {
     width: 60%;
     margin: auto;
     position: relative;
-    bottom: 50px;
+    bottom: 70px;
     /*Denne skubber artikel header op over billedet -- skubber den op i bunden*/
 
     height: 250px;
@@ -24,6 +41,10 @@ article>.header {
     text-align: center;
 
     color: #00004d;
+}
+
+.header img {
+    width: 20%;
 }
 
 .indhold {
@@ -48,12 +69,17 @@ article>.header {
     line-height: 23px;
 }
 
-.indhold-tekst a{
-    text-decoration: none;
-    color:#9c27b0;
+.indhold-tekst img {
+    width: 30%;
 }
 
-.indhold-tekst a:hover{
+
+.indhold-tekst a {
+    text-decoration: none;
+    color: #9c27b0;
+}
+
+.indhold-tekst a:hover {
     text-decoration: underline;
 }
 
@@ -66,13 +92,6 @@ article .header p {
     margin: 1%;
 
     color: #757575;
-}
-
-
-article img {
-    width: 100%;
-    align-items: center;
-    margin-top: 15%;
 }
 
 
@@ -100,26 +119,27 @@ main {
 }
 
 /*LIST STYLES*/
-ul{
+ul {
     list-style-type: none;
-    padding:1%;
-    line-height:50px;
+    padding: 1%;
+    line-height: 50px;
 }
 
-ul a{
-    font-family:"Rubik";
+ul a {
+    font-family: "Rubik";
 
-    text-decoration:none;
-    color:#9c27b0;
+    text-decoration: none;
+    color: #9c27b0;
 }
 
-ul a:hover{
+ul a:hover {
     text-decoration: underline;
 }
 
-ol{
-    font-family:"Rubik";
-    line-height:40px;
+ol {
+    font-family: "Rubik";
+    line-height: 30px;
+    font-size: 13pt;
 }
 
 /*KORT STYLES*/
@@ -127,6 +147,42 @@ ol{
     margin-bottom: 200px;
 }
 
-.headingbox{
-    margin-top:200px;
+.headingbox {
+    margin-top: 200px;
+}
+
+/*Previous og next knapper*/
+.pile{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    padding-top:10%;
+}
+
+.pile a {
+    font-family: "Poppins";
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.pile a:hover {
+    background-color: #9b27b05c;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: #00004d;
+}
+
+.next {
+    background-color: #f1f1f1;
+    color: #00004d;
+}
+
+.round {
+    border-radius: 5%;
 }
