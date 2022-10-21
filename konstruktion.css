@@ -28,10 +28,6 @@ main img {
         transform: rotate(0deg);
     }
 
-    25% {
-        transform: rotate(-45deg);
-    }
-
     to {
         transform: rotate(360deg);
     }
