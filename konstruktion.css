@@ -1,18 +1,38 @@
-main{
-    height:auto;
+main {
+    height: auto;
     text-align: center;
-    margin:10%;
+    margin: 10%;
 }
 
-h1{
+h1 {
     font-family: "Poppins";
-    font-size:40pt;
-    color:#00004d;
+    font-size: 40pt;
+    color: #00004d;
 }
 
-main p{
+main p {
     font-family: "Rubik";
-    color:#00004d;
-    font-size:20pt;
+    color: #00004d;
+    font-size: 20pt;
 
+}
+
+/*få møtrikken til at dreje rundt*/
+main img {
+    animation: spinner 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-45deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
